@@ -1,0 +1,14 @@
+.banner-img {
+
+    background-image: url(../Banner/bg1.jpg);
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position-y: 70%;
+}
+
+.banner-overlay {
+
+    background: rgba(0, 0, 0, 0.699);
+    height: 100%;
+}

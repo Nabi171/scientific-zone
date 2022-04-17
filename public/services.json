@@ -1,0 +1,44 @@
+[
+    {
+        "Name": "Artificial Hand",
+        "id": 1,
+        "price": 500,
+        "imageLink": "images/img1.png",
+        "description": "IIf you lost ur hand in accident ,that be so unfortunate for us,Dont panic,we will recover your hand by a artificial hand which will help you little bit."
+    },
+    {
+        "Name": "Artificial Leg",
+        "id": 2,
+        "price": 600,
+        "imageLink": "images/img2.jpg",
+        "description": "IIf you lost leg in accident ,that be so unfortunate for us,Dont panic,we will recover your leg by a artificial hand which will help you little bit."
+    },
+    {
+        "Name": "Moving Machine",
+        "id": 3,
+        "price": 1200,
+        "imageLink": "images/img3.jpg",
+        "description": "If you unable to work by born ,dont be panic,I have a good news for you.I have made a vehicle which help you move from one place to anohter"
+    },
+    {
+        "Name": "Third Eye",
+        "id": 4,
+        "price": 1300,
+        "imageLink": "images/img4.jpg",
+        "description": "If you unable to see,so dont be tensed,My team already working on it.This machine help you to reconize anything ,so you have to wait a few months"
+    },
+    {
+        "Name": "Side Talk",
+        "id": 5,
+        "price": 1000,
+        "imageLink": "images/img5.jpg",
+        "description": "If you unable to talk,so dont be tensed.We have invented a device for you which will help you to help connecting with your Brain signals."
+    },
+    {
+        "Name": "Pelvic Dyalysis",
+        "id": 6,
+        "price": 2000,
+        "imageLink": "images/img6.jpg",
+        "description": "If your kidney cant work properly,Doctor already suggested make dyalycis evey week which is very costly,so the pelvic device help you make Dyalysis."
+    }
+]

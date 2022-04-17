@@ -1,0 +1,42 @@
+.navlink-container{
+    text-decoration: none;
+    
+    }
+    
+    .nav-link {
+    
+        color: black !important;
+        font-weight: bold;
+    }
+    .text-title{
+        color:  #183a1d  !important;
+    }
+ 
+    .link{
+        text-decoration: none;
+        font-size:20px;
+        color:black;
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    .active-link{
+        text-decoration: none;
+        font-size:20px;
+        color:  #183a1d  !important;
+        font-weight: bold;
+        margin-left: 5px;
+       
+    }
+
+
+    .nav-color{
+        background-color: #f2ebe9 ;
+    }
+
+    .nav-container{
+        position: fixed;
+    }
+ .logo-img{
+     height: 80px;
+     width: 100px;
+ }

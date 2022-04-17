@@ -1,0 +1,11 @@
+.img-container{
+    width: 180px;
+    height: 180px;
+    clip-path: circle();
+   
+}
+
+
+.btn-color{
+   color:  #183a1d;
+}
