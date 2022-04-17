@@ -28,12 +28,12 @@ const Blogs = () => {
 
             <Card className='mt-4 mx-3'>
                 <Card.Body>
-                    <Card.Title className='text-danger pt-1 mt-1'>Block vs Inline block element?</Card.Title>
+                    <Card.Title className='text-danger pt-1 mt-1'>Difference between authorization and authentication</Card.Title>
                     <Table striped bordered hover size="sm">
                         <thead>
                             <tr>
                                 <th>#</th>
-                                <th>Block</th>
+                                <th>Authorization</th>
                                 <th>Inline Block</th>
                             </tr>
                         </thead>
