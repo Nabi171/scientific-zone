@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router';
 import useServices from '../../hooks/useServices';
 import { Card } from 'react-bootstrap';
-
+import '../SingleService/SingleService.css';
 const services = [
     {
         "Name": "Artificial Hand",
@@ -64,12 +64,12 @@ const SingleService = () => {
     return (
         <div className='container'>
 
-            <Card className='w-50 mx-auto my-5'>
-            <br/>
+            <Card className='w-50 mx-auto my-5 '>
+                <br />
                 <Card.Img variant="top" src={singleOne.imageLink} className='img-fluid' />
                 <Card.Body>
                     <Card.Title className='fw-bold'>{singleOne.Name}</Card.Title>
-                    <Card.Text style={{color:'#fefbe9 '}}>
+                    <Card.Text style={{ color: '#fefbe9 ' }}>
                         Price: ${singleOne.price}
                     </Card.Text>
 

@@ -7,22 +7,22 @@ const Blogs = () => {
         <div>
 
             <Card className="my-4">
-                <Card.Title className='text-danger pt-1 mt-1'>What is Context API?</Card.Title>
+                <Card.Title className='text-danger pt-1 mt-1'> Why are you using firebase? What other options do you have to implement authentication?</Card.Title>
                 <hr />
-                <p className='p-3'><strong>Context api is a part of React router</strong> which is taken important role to pass the data from its parents or granparents executing the code by props drilling.Its easier for the developers to pass the code by props drilling from any drinling its grand parentts or parent component.This feature is made the easiest path for the developers.
+                <p className='p-3'><strong>The firebase is mainly</strong> used for the authentication by using SignUp and signIN process to get connected with authentication where it can maintain security using authentication using firebase.So we use firebase authenticated the site where different types medium use for authentication like Google,Facebook,Github,Email etc to make sure  authentication with firebase.We use this normaly for getting connected with email or other plathforms with firebase Authentication.
                 <br />
-                    React.createContext()  which provides the users from its grandparents or components and helps to store the message or data.Then the users use the code without props drilling where they call the data in any component if they pass the data in their father component.So,this api creates shortest way for props drinling.</p>
-
+                    For implement authentication there are plethora of ways make authenticated the site beside firebase like Back4App,Parse,AWS Amplify,Backendless,Kuzzle,Supabase etc which are used for authentication beside using the firbase.</p>
             </Card>
 
             <Card className='mb-4'>
-                <Card.Title className='text-danger pt-1 mt-1'>What is Semantic Tag?</Card.Title>
+                <Card.Title className='text-danger pt-1 mt-1'>What other services does firebase provide other than authentication?</Card.Title>
                 <hr />
                 <p className='p-3'>
-                    <strong>Semantic HTML tags provide information about </strong> the contents of those tags that goes beyond just how they look on a page. Text that is enclosed in the code tag is immediately recognized by the browser as some type of coding language. Instead of trying to render that code, the browser understands that you are using that text as an example of the code.Using semantic tags gives you many more hooks for styling your content, too
+                    <strong>Mostly we used firebase for authentication,</strong>where users identity manintain the users data in the site used firebase authentication besides it provides more service like backend progam services,use SDKs and made UI libraries also to authenticate users your site.
 
-                    When using semantic tags to convey meaning rather than for presentation purposes, be careful that you don't use them incorrectly simply for their common display properties. Some of the most commonly misused semantic tags include: 1.blockquote, 2.p , 3. ul , 4. h1 to h6
+
             </p>
+
 
             </Card>
 
@@ -34,28 +34,28 @@ const Blogs = () => {
                             <tr>
                                 <th>#</th>
                                 <th>Authorization</th>
-                                <th>Inline Block</th>
+                                <th>Authentication</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>1</td>
-                                <td>Block element occupy the full space or width where you can controll the height with css element</td>
-                                <td>Its cant occupy the new line where you can add the height or with of the element</td>
+                                <td>Authorization means permiting access to the resource </td>
+                                <td>Authentication check the user identity and verfify the user identity.</td>
                             </tr>
                         </tbody>
                         <tbody>
                             <tr>
                                 <td>2</td>
-                                <td>Block element default width is 100%.</td>
-                                <td>Its element cant occupy full width its occupied its own space which cant be 100%.</td>
+                                <td>Authorazation depend on user where the authenticated person allowed to do.</td>
+                                <td>Authentication make check person to test who claim to be the web.</td>
                             </tr>
                         </tbody>
                         <tbody>
                             <tr>
                                 <td>3</td>
-                                <td>For Example:paragarp tag-p,headline tag-h,horizontal tag-h etc </td>
-                                <td>Its Example:anchontag-a,bold tag-b,italictag-i etc</td>
+                                <td>here security staff implement and maintain access control system </td>
+                                <td>users provide the authentication factor when requesting access</td>
                             </tr>
                         </tbody>
 
