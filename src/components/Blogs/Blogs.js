@@ -19,7 +19,8 @@ const Blogs = () => {
                 <hr />
                 <p className='p-3'>
                     <strong>Mostly we used firebase for authentication,</strong>where users identity manintain the users data in the site used firebase authentication besides it provides more service like backend progam services,use SDKs and made UI libraries also to authenticate users your site.
-
+                    By using firebase it is easy to implement authentication and authorization system ,it is a third party app to control the authorization.So it has more security than custom authentication and authorization system,thats why its more reliable.
+Usually, authentication by a server entails the use of a user name and password. Other ways to authenticate can be through cards, retina scans, voice recognition, and fingerprints.
 
             </p>
 
