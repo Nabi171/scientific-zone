@@ -27,9 +27,9 @@ const Login = () => {
         SetPassword(e.target.value);
     }
 
-    const handleUser = e => {
+    const handleUser = async (e) => {
         e.preventDefault();
-        signInWithEmailAndPassword(email, password);
+        await signInWithEmailAndPassword(email, password);
     }
 
     return (
