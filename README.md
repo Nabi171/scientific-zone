@@ -13,4 +13,9 @@
 5.REACT ROUTER
 6.REACT BOTSTRAP
 
+# Authentication
+1.Email 
+2.github
+3.goggle
+4.reset password
 
