@@ -58,7 +58,7 @@ const Login = () => {
     }
 
     return (
-        <div className='form-all mx-auto container ' >
+        <div className='form-all mx-auto container' >
             <br />
             <form onSubmit={handleUser} className="container-form text-center form-all">
                 <div className="form-title">LOGIN</div>
