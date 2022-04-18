@@ -12,7 +12,7 @@ const Home = () => {
             <Banner></Banner>
             <Projects></Projects>
             <h3 className='text-center fw-bolder mt-4 text-danger'>SERVICES</h3><hr className='container' />
-            <Services></Services>
+            <Services></Services> <br />
             <Footer></Footer>
         </div>
     );
