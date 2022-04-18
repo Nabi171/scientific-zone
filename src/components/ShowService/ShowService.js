@@ -6,7 +6,7 @@ const ShowService = (props) => {
     const { Name, imageLink, description, id } = props.service;
     const navigate = useNavigate();
     return (
-        <div className='col-lg-4 col-sm-12 col-md-6 g-4'>
+        <div className='col-lg-4 col-12 col-sm-12 col-md-6 g-4'>
             <Col>
                 <Card className='cards-container'>
                     <Card.Img variant="top" className='img-container   mx-auto m-2 ' src={imageLink} />
