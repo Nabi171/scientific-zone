@@ -14,7 +14,7 @@ const Header = () => {
 
             <Navbar className='nav-color' expand="lg"  >
                 <Container>
-                    <Navbar.Brand href="#home" className='fw-bold'>ABRAR NU<span className='text-danger'>RS ZONE
+                    <Navbar.Brand href="#home" className='fw-bold'>ABRAR NU<span className='text-title'>RS ZONE
                     <img src={img} className='logo-img' alt="" />
                     </span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -41,14 +41,6 @@ const Header = () => {
                                 <NavLink
                                     className={({ isActive }) => isActive ? "active-link" : "link"}
                                     to="/login">LOGIN</NavLink >}
-
-
-
-                            {/* {
-                                user ?
-                                    <button onClick={() => signOut(auth)}>Sign Out</button> :
-                                    <Link to="/login">Login</Link>
-                            } */}
 
                         </Nav>
                     </Navbar.Collapse>
