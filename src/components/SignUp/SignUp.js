@@ -7,10 +7,12 @@ import { useNavigate } from 'react-router';
 import { Link } from 'react-router-dom';
 import { Card } from 'react-bootstrap';
 import OthersLogin from '../Others/OthersLogin';
+import Loading from '../Loading/Loading';
 const SignUp = () => {
     const [
         createUserWithEmailAndPassword,
-        user
+        user,
+        loading
     ] = useCreateUserWithEmailAndPassword(auth);
     const [sendEmailVerification, sending] = useSendEmailVerification(auth);
 
@@ -22,6 +24,9 @@ const SignUp = () => {
         SetEmail(e.target.value);
     }
     const navigate = useNavigate();
+    if (loading) {
+        <Loading />
+    }
     if (user) {
         navigate('/home')
     }
@@ -41,8 +46,12 @@ const SignUp = () => {
             setError('your password is too short');
         }
 
+        if (email && password && confirmPassword) {
+            
+          await  createUserWithEmailAndPassword(email, password);
+        }
 
-        await createUserWithEmailAndPassword(email, password);
+        // await createUserWithEmailAndPassword(email, password);
         await sendEmailVerification()
         alert('Sent email');
     }
