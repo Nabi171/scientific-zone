@@ -4,6 +4,7 @@ import auth from '../../firebase.init';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { useNavigate } from 'react-router';
 import { Link } from 'react-router-dom';
+import OthersLogin from '../Others/OthersLogin';
 
 
 
@@ -49,6 +50,8 @@ const Login = () => {
             </form>
             <br />
             <p>You are new user!please signup. <Link to='/signup' className='text-danger pe-auto text-decoration-none fw-bold'>Please SignUp</Link></p>
+            <br />
+            <OthersLogin></OthersLogin>
         </div>
     );
 };
