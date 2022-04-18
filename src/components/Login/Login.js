@@ -7,11 +7,15 @@ import { Link } from 'react-router-dom';
 import OthersLogin from '../Others/OthersLogin';
 import { AiOutlineExclamationCircle } from "react-icons/ai";
 import Loading from '../Loading/Loading';
-
+import { useSendPasswordResetEmail } from 'react-firebase-hooks/auth';
 
 
 
 const Login = () => {
+    const [sendPasswordResetEmail] = useSendPasswordResetEmail(
+        auth
+    );
+
     const [emailError, setEmailError] = useState();
     const [passwordError, setPasswordError] = useState();
 
@@ -74,6 +78,15 @@ const Login = () => {
             {error && <p className='text-danger mb-0 mt-3'>{error.message}</p>}
             <br />
             <p>You are new user!please signup. <Link to='/signup' className='text-danger pe-auto text-decoration-none fw-bold'>Please SignUp</Link></p>
+            <p>
+                if forget password then reset password?
+              <button className='btn btn-info'
+                    onClick={async () => {
+                        await sendPasswordResetEmail(email);
+                        alert('Sent email');
+                    }}
+                >   Reset password
+            </button></p>
             <br />
             <OthersLogin></OthersLogin>
         </div>
