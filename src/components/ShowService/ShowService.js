@@ -3,7 +3,7 @@ import { Col, Card, Button } from 'react-bootstrap';
 import './ShowService.css';
 import { useNavigate } from 'react-router';
 const ShowService = (props) => {
-    const { Name, imageLink, description, id } = props.service;
+    const { Name, imageLink, description, id, price } = props.service;
     const navigate = useNavigate();
     return (
         <div className='col-lg-4 col-12 col-sm-12 col-md-6 g-4'>
@@ -15,6 +15,9 @@ const ShowService = (props) => {
                         <hr />
                         <Card.Text>
                             <span className='fw-bold'>Service:</span>{description}
+                        </Card.Text>
+                        <Card.Text>
+                            <span className='fw-bold'>Price:</span>${price}
                         </Card.Text>
 
                     </Card.Body>

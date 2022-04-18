@@ -11,7 +11,7 @@ const Footer = () => {
                 <Grid container>
                     <Grid item xs={12} md={5}>
                         <Typography variant='h5'>
-                            Car Reign
+                            NURS ZONE
                         </Typography>
                         <Box sx={{ my: '5%' }}>
                             <Typography variant='h6'>
